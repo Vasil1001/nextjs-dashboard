@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'satoshi': ['Satoshi', 'sans-serif'],
+        'general-sans': ['General Sans', 'sans-serif'],
+        'outfit': ['Outfit', 'sans-serif'],
+        'supreme': ['Supreme', 'sans-serif'],
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
